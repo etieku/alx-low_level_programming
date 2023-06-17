@@ -14,7 +14,7 @@ int main(void)
 	{
 		putchar ((SingleNumBaseTen % 10) + '0');
 	}
-	printf("\n");
+	putchar('\n');
 
 	return (0);
 }
