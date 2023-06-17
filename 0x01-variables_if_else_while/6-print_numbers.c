@@ -8,11 +8,11 @@
 
 int main(void)
 {
-	int SingleNumBaseTen;
+	int num;
 
-	for (SingleNumBaseTen = 0; SingleNumBaseTen < 10; SingleNumBaseTen++)
+	for (num = 0; num < 10; num++)
 	{
-		putchar ((SingleNumBaseTen % 10) + '0');
+		putchar ((num % 10) + '0');
 	}
 	putchar('\n');
 
