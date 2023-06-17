@@ -6,7 +6,7 @@
 
 /**
  * main - Prints if number is greater than 5, 0 or is less than 6 and not 0
- * Return - Always (Success)
+ * Return - 0 (Success)
  *
  */
 
@@ -23,7 +23,7 @@ int main(void)
 	}
 	else if (((n % 10) < 6) && ((n % 10) != 0))
 	{
-		printf("Last digit of %d is %d and is less than and not 0\n", n, n % 10);
+		printf("Last digit of %d is %d and is less than 6 and not 0\n", n, n % 10);
 	}
 	else
 	{
